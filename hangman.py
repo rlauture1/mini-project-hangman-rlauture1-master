@@ -93,7 +93,7 @@ def getAvailableLetters(lettersGuessed):
     # Hint: You might consider using string.ascii_lowercase, which
     # is a string comprised of all lowercase letters.
 
-    # FILL IN YOUR CODE HERE...
+    
 
 
 # When you've completed your function getAvailableLetters, uncomment these two lines
