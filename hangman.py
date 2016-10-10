@@ -51,6 +51,8 @@ def isWordGuessed(secretWord, lettersGuessed):
         return False
     return True
 
+#this set of code is testing if the word is guessed correctly or not and will return true if it is and false if it's not.
+
 # When you've completed your function isWordGuessed, uncomment these three lines
 # and run this file to test!
 
@@ -74,6 +76,8 @@ def getGuessedWord(secretWord, lettersGuessed):
       if letter not in lettersGuessed:
         word = word.replace(letter,'_')
     return word
+
+#this set of code will return the word with the letters that has been guessed in the word then it will enter blanks for letters not guessed yet.
 
 
 secretWord = 'apple'
@@ -99,6 +103,8 @@ def getAvailableLetters(lettersGuessed):
       if letter in lettersGuessed:
         available= available.replace(letter,"")
     return available 
+
+#this will return the letters that are were not used yet. 
         
 
 lettersGuessed = ['e', 'i', 'k', 'p', 'r', 's']
@@ -133,6 +139,8 @@ def hangman(secretWord):
     guess = str
     mistakesMade = 8
     wordGuessed = False
+
+#this code lets the user now how long the secret word is.
     
     print('Welcome to the game, Hangman!')
     print('I am thinking of a word that is '), intro,(' letters long.')
